@@ -402,6 +402,11 @@ p {
 .sub-section .title {
     padding:0;
 }
+
+.banner-slider{
+    background: #fff !important;
+}
+
 /*******
 3.1 Services  
 ***************************************/
