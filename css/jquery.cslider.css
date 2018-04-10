@@ -5,7 +5,7 @@
     position: relative;
     margin:0 auto;
     overflow: hidden;
-    background: transparent url(../images/Slider.png) repeat-x 0% center; /* Replace with your background image*/
+   /* background: transparent url(../images/Slider.png) repeat-x 0% center;  Replace with your background image*/
     background-size:auto 100%;
     -webkit-transition: background-position 1s ease-out 0.3s;
     -moz-transition: background-position 1s ease-out 0.3s;
