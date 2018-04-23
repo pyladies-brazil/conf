@@ -1,5 +1,5 @@
 #particles-js {
-  background: $main;
+  background: $color_banner;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -87,6 +87,18 @@
       font-size: 35px;
     }
   }
+}
+
+.logo-pyladies{
+  width: 40%;
+}
+
+.logo-pyladiesconf{
+  width: 50%;
+}
+
+.nav-color{
+  background-color: $color_banner;
 }
 
 .down {
