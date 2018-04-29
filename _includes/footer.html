@@ -1,18 +1,57 @@
-<footer class="footer">
+<!-- <footer class="footer">
     <p>&copy; {{site.username}}</p>
     
-    <div class="">
-        <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
-        <a aria-label="My Github" target="_blank" href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-    </div>
     
-    <!-- <p>PyLadiesConfBR is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p> -->
+    
+    <p>PyLadiesConfBR is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
+</footer> -->
+
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Seja um patrocinador!</h5>
+        <div class="grey-text text-lighten-4">
+        	<a class="waves-effect waves-light btn-large">Quero Patrocinar</a>
+		</div>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Sobre</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Evento</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Keynotes</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Local</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Patrocinadores</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2018 Pyladies Brasil. Todos os direitos reservados. PyLadies Brasil é parte do PyLadies . PyLadies é marca registradas da Python Software Foundation.
+   <!--  <a class="grey-text text-lighten-4 right" href="#!"><i class="icon fa fa-envelope"></i></a>
+    <a class="grey-text text-lighten-4 right" href="#!"><i class="icon fa fa-twitter"></i></a>
+	<a class="grey-text text-lighten-4 right" href="#!"><i class="icon fa fa-google-plus"></i></a>
+	<a class="grey-text text-lighten-4 right" href="#!"><i class="icon fa fa-github-alt"></i></a>
+ -->
+    </div>
+  </div>
 </footer>
+
+
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/jquery-3.3.1.min.js" | prepend: site.baseurl }}"></script>
+
 <script src="{{ "/assets/js/materialize.min.js" | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    	$('.parallax').parallax();
+  	});
+      
+</script>
 
 {% include google-analytics.html %}
