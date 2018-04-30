@@ -3624,7 +3624,7 @@ sup, sub {
     opacity: .4;
     top: 0; } }
 #particles-js {
-  background: #104384;
+  background: #208da9;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -3704,7 +3704,7 @@ sup, sub {
         font-size: 35px; } }
 
 .logo-pyladies {
-  width: 40%; }
+  width: 35%; }
 
 .logo-pyladiesconf {
   width: 50%; }
@@ -3739,6 +3739,18 @@ sup, sub {
       color: #4B5664; }
     .down .icon:active {
       color: #4B5664; }
+
+.map-responsive {
+  overflow: hidden;
+  position: relative;
+  height: 350px; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
 
 #about {
   width: 90%;
@@ -3779,7 +3791,11 @@ sup, sub {
   max-width: 960px; }
   @media only screen and (min-width: 550px) {
     #patrocinadores {
-      width: 80%; } }
+      width: 80%;
+      margin-top: 0; } }
+  @media only screen and (max-width: 360px) {
+    #patrocinadores {
+      margin-top: 0; } }
 
 .tech {
   margin: 10px; }
@@ -3844,7 +3860,8 @@ sup, sub {
 @media only screen and (min-width: 550px) {
   .images-right {
     float: right;
-    width: 48%; } }
+    width: 48%;
+    height: 15em; } }
 @media only screen and (min-width: 550px) {
   .images-right img {
     float: right; } }

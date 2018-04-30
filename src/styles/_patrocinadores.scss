@@ -5,6 +5,11 @@
   max-width: 960px;
   @media only screen and (min-width: $cut) {
     width: 80%;
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: 360px) {
+    margin-top: 0;
   }
 }
 
@@ -36,3 +41,4 @@
 .icon-about{
   width: 150px;
 }
+

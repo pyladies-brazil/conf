@@ -1,5 +1,5 @@
 #particles-js {
-  background: $color_banner;
+  background: #208da9;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -131,4 +131,18 @@
         color: $sec;
       }
   }
+}
+
+.map-responsive{
+    overflow:hidden;
+   
+    position:relative;
+    height:350px;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
