@@ -1,2 +1,0 @@
-PyLadies Br Conf
-
