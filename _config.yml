@@ -1,14 +1,14 @@
 # Site settings
 title: PyLadiesConfBR
-description: A blog about lorem ipsum dolor sit amet
+description: Encontro Nacional de PyLadies de todo o Brasil
 baseurl: "/conf" # the subpath of your site, e.g. /blog
 url: "https://pyladies-brazil.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: PyLadiesConfBR
 user_description: A PyLadies Conf é uma conferência de PyLadies para PyLadies. O PyLadies é um grupo internacional, mantido pela Python Software Foundation. Nossa missão é ajudar mais mulheres a tornarem-se membros ativos da comunidade Python. Queremos reunir mulheres que possam inspirar e renovar quem está entrando ou há algum tempo na área tecnológica. Esta será nossa primeira edição do evento, que irá ocorrer em Natal, dia 16 de outubro.
-user_title: 1° Conferência PyLadies do Brasil!
-email: anon@anon.com
+user_title: PyLadiesConf
+email: brazil@pyladies.com
 twitter_username: pyladiesbrazil
 github_username:  pyladies-brazil
 gplus_username:  https://plus.google.com/114419825361109783805
