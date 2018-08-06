@@ -3710,7 +3710,7 @@ sup, sub {
   width: 50%; }
 
 .nav-color {
-  background-color: #104384; }
+  background: #030404; }
 
 .down {
   color: #FFF;
@@ -3743,7 +3743,8 @@ sup, sub {
 .map-responsive {
   overflow: hidden;
   position: relative;
-  height: 350px; }
+  height: 350px;
+  margin-top: 5%; }
 
 .map-responsive iframe {
   left: 0;
@@ -3800,7 +3801,7 @@ sup, sub {
   width: 100%;
   height: 18em;
   margin-top: 5%;
-  background-image: linear-gradient(to right bottom, #04060a, #0a3d5a); }
+  background-image: linear-gradient(to right bottom, #2d966f, #0a3d5a); }
 
 .clock-letter h3 {
   text-align: center;
@@ -3951,5 +3952,8 @@ sup, sub {
       color: #4B5664; }
     .footer a:active {
       color: #4B5664; }
+
+.social-media {
+  margin: 4px; }
 
 /*# sourceMappingURL=main.css.map */
