@@ -4,35 +4,42 @@
   <body>
       {% include header.html %}
       
-  
+      {% include nav.html %}
+
       <section id="about">
         {% include about.html %}
       </section>
 
-      <section>
-        {% include banner_pyladies.html %}
-      </section>
+      <section id="about">
+          {% include about_1.html %}
+        </section>
+
+        <section class="banner">
+            {% include contador.html %}
+          </section>
 
       <section id="keynotes">
         {% include keynotes.html %}
       </section>
 
-       <section>
-        {% include banner_pyladies_1.html %}
-      </section>
+      <section class="banner" id="inscricoes">
+          {% include inscricoes.html %}
+        </section>
 
       <section id="local">
         {% include local.html %}
       </section>
 
       <section>
-        {% include banner_pyladies_2.html %}
-      </section>
+          {% include banner_pyladies_1.html %}
+        </section>
 
       <section id="patrocinadores">
         {% include patrocinadores.html %}
       </section>
 
+     
+  
 
         {{ content }}
       {% include footer.html %}

@@ -1,5 +1,5 @@
 #particles-js {
-  background: #208da9;
+  background: #030404;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -145,4 +145,20 @@
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.color-button{
+  background: #1f5ab3;
+}
+
+.location{
+  color:#aa00ff;
+}
+
+.face{
+  color: #c51162;
+}
+
+.group{
+  color: #ff6d00;
 }

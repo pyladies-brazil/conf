@@ -3624,7 +3624,7 @@ sup, sub {
     opacity: .4;
     top: 0; } }
 #particles-js {
-  background: #208da9;
+  background: #030404;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -3752,6 +3752,18 @@ sup, sub {
   width: 100%;
   position: absolute; }
 
+.color-button {
+  background: #1f5ab3; }
+
+.location {
+  color: #aa00ff; }
+
+.face {
+  color: #c51162; }
+
+.group {
+  color: #ff6d00; }
+
 #about {
   width: 90%;
   margin: 0 auto;
@@ -3761,7 +3773,7 @@ sup, sub {
       width: 80%; } }
 
 .tech {
-  margin: 10px; }
+  margin: 3%; }
 
 .user {
   text-align: center;
@@ -3784,6 +3796,33 @@ sup, sub {
 .icon-about {
   width: 150px; }
 
+.banner {
+  width: 100%;
+  height: 18em;
+  margin-top: 5%;
+  background-image: linear-gradient(to right bottom, #04060a, #0a3d5a); }
+
+.clock-letter h3 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 260%; }
+
+.clock-letter p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 200%; }
+
+.user h2 {
+  margin-top: 0px !important;
+  padding-top: 0px !important; }
+
+#local {
+  margin: 5%; }
+
+.info-local {
+  margin-top: 4%; }
+
 #patrocinadores {
   width: 90%;
   margin: 10px auto;
@@ -3796,9 +3835,6 @@ sup, sub {
   @media only screen and (max-width: 360px) {
     #patrocinadores {
       margin-top: 0; } }
-
-.tech {
-  margin: 10px; }
 
 .user {
   text-align: center;

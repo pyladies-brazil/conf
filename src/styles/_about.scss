@@ -8,7 +8,7 @@
 }
 
 .tech {
-  margin: 10px;
+  margin: 3%;
 }
 
 .user {
@@ -34,4 +34,33 @@
 
 .icon-about{
   width: 150px;
+}
+
+.banner{
+  width: 100%;
+  height: 18em;
+  margin-top: 5%;
+  background-image: linear-gradient(to right bottom,#04060a, #0a3d5a);
+}
+
+.clock-letter h3{
+  text-align: center;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 260%;
+}
+
+.clock-letter p{
+  text-align: center;
+  color: #ffffff;
+  font-size: 200%;
+}
+
+.user h2{
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.tech span{
+  // margin-top: 5%;
 }
