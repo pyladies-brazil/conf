@@ -65,6 +65,15 @@
 <!-- <script src="{{ "/assets/js/contador.js" | prepend: site.baseurl  }} "></script> -->
 
 <script type="text/javascript">
+
+ $( window ).scroll(function() {
+
+  if($(window).height() * 0.60 > $(this).scrollTop()){
+    $(".nav-color").hide();
+  }
+  else $(".nav-color").show();
+    
+})
     $(document).ready(function(){
     	$('.parallax').parallax();
   	});

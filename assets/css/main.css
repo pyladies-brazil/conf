@@ -3559,8 +3559,6 @@ article, aside, figcaption, figure, footer, header, nav, section {
   display: block; }
 
 h1, h2, h3, h4, stong {
-  margin-top: 1em;
-  padding-top: 1em;
   line-height: 1.25;
   color: #333; }
 
@@ -3569,9 +3567,6 @@ h1 {
 
 h2 {
   font-size: 2rem; }
-
-h3 {
-  font-size: 1.5rem; }
 
 h4 {
   font-size: 1rem; }
@@ -3624,7 +3619,7 @@ sup, sub {
     opacity: .4;
     top: 0; } }
 #particles-js {
-  background: #030404;
+  background: #104384;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -3641,6 +3636,7 @@ sup, sub {
   text-align: center;
   color: #FFF;
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   margin: 0 auto;
@@ -3710,7 +3706,7 @@ sup, sub {
   width: 50%; }
 
 .nav-color {
-  background: #030404; }
+  background: #104384; }
 
 .down {
   color: #FFF;
@@ -3754,7 +3750,8 @@ sup, sub {
   position: absolute; }
 
 .color-button {
-  background: #1f5ab3; }
+  font-weight: bold;
+  font-family: monospace; }
 
 .location {
   color: #aa00ff; }
