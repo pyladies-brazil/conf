@@ -3774,7 +3774,6 @@ sup, sub {
   margin: 3%; }
 
 .user {
-  text-align: center;
   font-size: 60px;
   display: flex;
   flex-direction: row;
@@ -3788,7 +3787,6 @@ sup, sub {
       font-size: 75px; } }
 
 .user-details {
-  text-align: center;
   margin: 5px auto; }
 
 .icon-about {
@@ -3868,10 +3866,6 @@ sup, sub {
 
 .user-projects {
   margin: 20px auto; }
-  .user-projects img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px; }
   .user-projects h5 {
     margin: 0; }
   .user-projects li {
@@ -3879,6 +3873,9 @@ sup, sub {
     font-size: 1.1rem; }
   .user-projects p {
     margin-right: 5px; }
+
+.img-keynotes {
+  height: 18em; }
 
 @media only screen and (min-width: 550px) {
   .contents {

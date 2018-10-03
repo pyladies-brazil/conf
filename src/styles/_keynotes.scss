@@ -12,11 +12,7 @@
 
 .user-projects {
   margin: 20px auto;
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
+ 
   h5 {
     margin: 0;
   }
@@ -27,6 +23,10 @@
   p {
     margin-right: 5px;
   }
+}
+
+.img-keynotes{
+  height: 18em;
 }
 
 .contents {
