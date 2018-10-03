@@ -7,6 +7,7 @@
  *    IE on Windows Phone and in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro:300,400,500,600,700");
 html {
   line-height: 1.15;
   /* 1 */
@@ -3584,6 +3585,10 @@ a img {
 sup, sub {
   line-height: 0; }
 
+h1, h2 {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 600; }
+
 @-webkit-keyframes pulse {
   from {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -3875,7 +3880,11 @@ sup, sub {
     margin-right: 5px; }
 
 .img-keynotes {
-  height: 18em; }
+  height: 18em;
+  border-radius: 3%; }
+
+.keynotes p {
+  line-height: 1.5; }
 
 @media only screen and (min-width: 550px) {
   .contents {

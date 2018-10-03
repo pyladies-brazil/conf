@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:300,400,500,600,700');
 
 body {
     margin: 0;
@@ -43,3 +44,9 @@ sup, sub {
     line-height: 0;
 }
 
+
+
+h1, h2{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+  }
