@@ -3831,6 +3831,10 @@ h1, h2 {
 .programacao table {
   padding-top: 3em; }
 
+.palestrantes {
+  border-radius: 5%;
+  width: 10em; }
+
 #patrocinadores {
   width: 90%;
   margin: 10px auto;
