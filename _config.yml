@@ -17,4 +17,4 @@ gplus_username:  https://plus.google.com/114419825361109783805
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules', 'gulpfile.js', 'LICENSE.txt',  'particle.jpg', 'README.md', 'README.txt', 'yarn.lock']
