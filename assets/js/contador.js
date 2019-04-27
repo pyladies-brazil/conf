@@ -1,5 +1,5 @@
 
-var contest = moment.tz("2018-10-16 00:00", "America/Manaus");
+var contest = moment.tz("2019-10-19 09:00", "America/Brasilia");
 
 
 
