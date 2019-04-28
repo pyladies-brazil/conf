@@ -1,8 +1,8 @@
 # Site settings
 title: PyLadiesBRConf
 description: Encontro Nacional de PyLadies de todo o Brasil
-baseurl: "/conf" # the subpath of your site, e.g. /blog
-url: "https://pyladies-brazil.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "/conf-1" # the subpath of your site, e.g. /blog
+url: "https://brasil.pyladies.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: PyLadiesBRConf
