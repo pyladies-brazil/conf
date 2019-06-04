@@ -12,7 +12,7 @@ $('#clock.simple').countdown({ date: contest });
 $('#clock.styled').countdown({
   date: contest,
   render: function(data) {
-      $("#days").html(this.leadingZeros(data.days, 3).slice(1)); 
+      $("#days").html(this.leadingZeros(data.days, 3)); 
       $("#hours").html(this.leadingZeros(data.hours, 2));
       $("#minutes").html(this.leadingZeros(data.min, 2));
       $("#seconds").html(this.leadingZeros(data.sec, 2));
