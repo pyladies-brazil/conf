@@ -6,8 +6,9 @@ url: "https://pyladies-brazil.github.io" # the base hostname & protocol for your
 
 # User settings
 username: PyLadiesBRConf
-user_description: A PyLadies BR Conf é uma conferência de PyLadies para PyLadies. O PyLadies é um grupo internacional, mantido pela Python Software Foundation. Nossa missão é ajudar mais mulheres a tornarem-se membros ativos da comunidade Python. Queremos reunir mulheres que possam inspirar e renovar quem está entrando ou há algum tempo na área tecnológica. Esta será nossa primeira edição do evento, que irá ocorrer em Natal no dia 16 de outubro.
-user_title: 1ª Conferência PyLadies do Brasil
+user_description: A PyLadies BR Conf é uma conferência de PyLadies para PyLadies. O PyLadies é um grupo internacional, mantido pela Python Software Foundation. Nossa missão é ajudar mais mulheres a tornarem-se membros ativos da comunidade Python. Queremos reunir mulheres que possam inspirar quem está chegando na comunidade, também quem está na área tecnológica há algum tempo. Esta será a segunda edição do evento, que irá ocorrer na cidade de São Paulo no dia 19 de Outubro.
+
+user_title: 2ª Conferência PyLadies do Brasil
 email: brazil@pyladies.com
 twitter_username: pyladiesbrazil
 github_username:  pyladies-brazil
