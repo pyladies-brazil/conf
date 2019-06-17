@@ -13,14 +13,13 @@
   }
 }
 
-
 .user {
   text-align: center;
   font-size: 60px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   p {
     font-size: 16px;
   }
@@ -35,7 +34,6 @@
   margin: 5px auto;
 }
 
-.icon-about{
+.icon-about {
   width: 5em;
 }
-

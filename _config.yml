@@ -11,11 +11,22 @@ user_description: A PyLadies BR Conf é uma conferência de PyLadies para PyLadi
 user_title: 2ª Conferência PyLadies do Brasil
 email: brazil@pyladies.com
 twitter_username: pyladiesbrazil
-github_username:  pyladies-brazil
-gplus_username:  https://plus.google.com/114419825361109783805
+github_username: pyladies-brazil
+gplus_username: https://plus.google.com/114419825361109783805
 
 # Google-analytics
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules', 'gulpfile.js', 'LICENSE.txt',  'particle.jpg', 'README.md', 'README.txt', 'yarn.lock']
+exclude:
+  [
+    "package.json",
+    "src",
+    "node_modules",
+    "gulpfile.js",
+    "LICENSE.txt",
+    "particle.jpg",
+    "README.md",
+    "README.txt",
+    "yarn.lock",
+  ]
