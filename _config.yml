@@ -13,7 +13,8 @@ email: brazil@pyladies.com
 twitter_username: pyladiesbrazil
 github_username: pyladies-brazil
 gplus_username: https://plus.google.com/114419825361109783805
-
+collections:
+  - palestrantes
 # Google-analytics
 google-analytics:
   id: ""
