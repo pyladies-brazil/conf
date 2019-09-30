@@ -1,51 +1,41 @@
-<div class="keynotes">
+<div>
   <center>
   <h1>Palestrantes</h1>
   <br>
-  <p>Em breve!</p>
   </center>
-<!--
-  <div class="row">
-
-    <div class="keynote-card">
-      <div class="col s12 col m4">
-          <img class="img-keynotes " src="{{ "/assets/img/keynotes/gabi.jpg" | prepend: site.baseurl }}">
-      </div>
-
-      <div class="col s12 col m8 ">
-          <h2>Gabi Cavalcante</h2>
-          <p>Formada em Tecnologia da Informação (UFRN-Brasil/Polytech-França), e graduanda em Ciência da Computação (UFRN), atualmente trabalha na área de segurança da informação e IoT na Rede Nacional de Ensino de Pesquisa (RNP).
-              Também contribui em comunidades e coletivos feministas, como o PyLadies e o MUTE.</p>
-
-          <div class="card-action">
-              <a href="https://facebook.com/gabi.cavalcante.silva"><i class="icon fa fa-facebook"></i></a>
-              <a href="https://twitter.com/_gabiCavalcante"><i class="icon fa fa-twitter"></i></a>
-              <a href="https://github.com/I-am-Gabi"><i class="icon fa fa-github"></i></a>
-              <a href="https://br.linkedin.com/in/gabrielacavalcante"><i class="icon fa fa-linkedin"></i></a>
-          </div>
-        </div>
-    </div>
-
+  <div class="row" style="display:flex;flex-wrap:wrap">
+  {% for palestrante in site.palestrantes %}
+    <div class="column" style="width: 33%;">
+        <a class="waves-effect modal-trigger" href="#{{ palestrante.id }}">
+        <img class="img-keynotes " src="{{ palestrante.photo | prepend: site.baseurl }}">
+        </a>
+    <h2>{{ palestrante.name }}</h2>
   </div>
-
-      <br> <br>
-
-  <div class="row" >
-      <div class="keynote-card">
-          <div class="col s12 col m4">
-              <img class="img-keynotes" src="{{ "/assets/img/keynotes/jessica.jpg" | prepend: site.baseurl }}">
-            </div>
-
-          <div class="col s12 col m8 ">
-              <h2>Jessica Temporal</h2>
-              <p>Com uma formação exótica em Informática Biomédica, Jessica Temporal é desenvolvedora e cientista de dados na Nuveo, co-fundadora do Pizza de Dados, o podcast brasileiro sobre ciência de dados. Apaixonada por open source, faz parte do time de mantenedores do projeto Operação Serenata de Amor e participante ativa das iniciativas PyLadies e Women Who Go.</p>
-
-              <div class="card-action">
-                  <a href="https://twitter.com/jesstemporal"><i class="icon fa fa-twitter"></i></a>
-                  <a href="https://github.com/jtemporal"><i class="icon fa fa-github"></i></a>
-                  <a href="https://www.instagram.com/jesstemporal/"><i class="icon fa fa-instagram"></i></a>
-              </div>
-            </div>
-        </div>
--->
+  <div id="{{ palestrante.id }}" class="modal">
+    <div class="modal-content">
+      <div class="center">
+          <img src="{{ palestrante.photo | prepend: site.baseurl }}" class="palestrantes">
+      </div>
+      <h2>{{ palestrante.name }}</h2>
+      <p> {{ palestrante.content }}</p>
+      <div class="card-action">
+          {% if palestrante.facebook %}
+          <a href="https://facebook.com/{{ palestrante.facebook }}"><i class="icon fa fa-facebook"></i></a>
+          {% endif %}
+          {% if palestrante.twitter %}
+          <a href="https://twitter.com/{{ palestrante.twitter }}"><i class="icon fa fa-twitter"></i></a>
+          {% endif %}
+          {% if palestrante.github %}
+          <a href="https://github.com/{{ palestrante.github }}"><i class="icon fa fa-github"></i></a>
+          {% endif %}
+          {% if palestrante.facebook %}
+          <a href="https://br.linkedin.com/in/{{ palestrante.linkedin }}"><i class="icon fa fa-linkedin"></i></a>
+          {% endif %}
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>
