@@ -2,7 +2,6 @@
     <div class="row">
       <div class="container">
           <h1 class="center">Programação</h1>
-          <p class="center">Em breve!</p>
           <table class="highlight centered">
               <thead>
                 <tr>
@@ -24,8 +23,8 @@
 
                 <tr>
                   <td>10:00</td>
-
-                  <td> Palestra </td>
+                  {% assign speaker = site.palestrantes[0] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
                 </tr>
 
                 <tr>
@@ -35,12 +34,14 @@
 
                 <tr>
                   <td>11:00</td> 
-                  <td> Palestra </td>
+                  {% assign speaker = site.palestrantes[1] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
                 </tr>
 
                 <tr>
                   <td>11:30</td>
-                  <td> Palestra </td>
+                  {% assign speaker = site.palestrantes[2] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
                 </tr>
 
                 <tr>
@@ -50,7 +51,8 @@
 
                 <tr>
                   <td>14:00</td>
-                  <td> Mesa Redonda PyLadies SP </td>
+                  {% assign speaker = site.palestrantes[3] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
                 </tr>
 
                 <tr>
@@ -60,12 +62,14 @@
 
                 <tr>
                   <td>16:00</td>
-                  <td> Palestra </td>
+                  {% assign speaker = site.palestrantes[4] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
                 </tr>
 
                 <tr>
                   <td>16:30</td>
-                  <td> Keynote </td>
+                  {% assign speaker = site.palestrantes[5] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
                 </tr>
 
                 <tr>
