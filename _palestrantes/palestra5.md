@@ -9,3 +9,7 @@ linkedin:
 github:
 
 ---
+
+Tech Lead @ Stone
+
+Programa principalmente em Python e Go e gosta de arquitetar softwares e infraestruturas escaláveis, simples de entender e de testar.
