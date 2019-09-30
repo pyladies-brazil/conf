@@ -2,8 +2,8 @@
 id: palestra2
 name: Patricia Morimoto
 photo: "/assets/img/palestrantes/paty.jpg"
-title: "Comp sem cao"
-twitter: compsemcao
+title:
+twitter:
 facebook:
 linkedin:
 github:

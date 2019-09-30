@@ -1,9 +1,9 @@
 ---
 id: palestra4
 name: PyLadiesSP
-photo: "/assets/img/palestrantes/nina.jpg"
-title: "Comp sem cao"
-twitter: compsemcao
+photo: "/assets/img/palestrantes/pyladiessp.jpg"
+title:
+twitter:
 facebook:
 linkedin:
 github:

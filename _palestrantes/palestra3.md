@@ -1,9 +1,9 @@
 ---
-id: palestra1
-name: Nina
-photo: "/assets/img/palestrantes/nina.jpg"
-title: "Comp sem cao"
-twitter: compsemcao
+id: palestra4
+name: Tainá Simões
+photo: "/assets/img/palestrantes/taina.jpg"
+title:
+twitter:
 facebook:
 linkedin:
 github:

@@ -1,9 +1,9 @@
 ---
 id: palestra1
-name: Nina
+name: Ana Carolina DaHora
 photo: "/assets/img/palestrantes/nina.jpg"
-title: "Comp sem cao"
-twitter: compsemcao
+title:
+twitter:
 facebook:
 linkedin:
 github:
