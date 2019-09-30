@@ -9,3 +9,5 @@ linkedin:
 github:
 
 ---
+
+Mesa redonda gerenciada pela PyLadies SP
