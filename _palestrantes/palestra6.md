@@ -1,8 +1,8 @@
 ---
 id: palestra6
-name: Em breve!
-photo: "/assets/img/palestrantes/cabecinha.jpg"
-title: Em breve!
+name: Julia Machado
+photo: "/assets/img/palestrantes/julia.jpg"
+title: Keynote
 twitter:
 facebook:
 linkedin:
@@ -10,3 +10,4 @@ github:
 
 ---
 
+Bacharel em Publicidade e Propaganda, experiência de mais de 10 anos em gestão de equipes de desenvolvimento de software e Fundadora e Diretora Executiva das Anitas.
