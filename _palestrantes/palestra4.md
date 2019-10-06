@@ -3,10 +3,10 @@ id: palestra4
 name: PyLadiesSP
 photo: "/assets/img/palestrantes/pyladiessp.jpg"
 title: "Mesa Redonda"
-twitter:
-facebook:
+twitter: pyladiessp
+facebook: PyLadiesSP
 linkedin:
-github:
+github: PyLadiesSP
 
 ---
 
