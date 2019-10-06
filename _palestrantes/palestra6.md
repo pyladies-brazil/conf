@@ -4,8 +4,8 @@ name: Julia Machado
 photo: "/assets/img/palestrantes/julia.jpg"
 title: Keynote
 twitter:
-facebook:
-linkedin:
+facebook: julia.machado.pinto
+linkedin: juliamachadopinto
 github:
 
 ---
