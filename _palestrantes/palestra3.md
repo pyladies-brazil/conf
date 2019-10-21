@@ -1,15 +1,15 @@
 ---
-id: palestra4
-name: Tainá Simões
-photo: "/assets/img/palestrantes/taina.jpg"
-title: "Na busca do candidato"
-twitter:
-facebook:
-linkedin:
-github: tainasimoes
+id: palestra3
+name: Bianca Rosa
+photo: "/assets/img/palestrantes/bianca.jpg"
+title: "Processando milhões de mensagens por dia usando Python e Kubernetes"
+twitter: __biancarosa
+facebook: biancarosa92
+linkedin: brosa
+github: biancarosa
 
 ---
 
-Sócia da Grama, estúdio focado em desenvolvimento criativo. Designer pela Escola de Belas Artes da UFRJ, trabalha com mídias digitais desde 2012. Com passagem por estúdios como 6D e Café Artes Visuais e SuperUber, onde fez parte da equipe de desenvolvimento participante de projetos para web e instalações interativas.
+Tech Lead @ Stone
 
-Foi professora no projeto Escola HTML na Mineira, Rio de Janeiro, onde aprendeu e ensinou sobre programação, arte e a cultura da gambiarra. Tem um interesse no uso de novas mídias e tecnologias para o desenvolvimento urbano e comunitário. Viva a força da mulher preta =]
+Programa principalmente em Python e Go e gosta de arquitetar softwares e infraestruturas escaláveis, simples de entender e de testar.
