@@ -1,41 +1,7 @@
 <div>
   <center>
   <h1>Palestrantes</h1>
+  <p>Em breve!</p>
   <br>
   </center>
-  <div class="row" style="display:flex;flex-wrap:wrap">
-  {% for palestrante in site.palestrantes %}
-    <div class="column" style="width: 33%;">
-        <a class="waves-effect modal-trigger" href="#{{ palestrante.id }}">
-        <img class="img-keynotes " src="{{ palestrante.photo | prepend: site.baseurl }}">
-        </a>
-    <h2>{{ palestrante.name }}</h2>
   </div>
-  <div id="{{ palestrante.id }}" class="modal">
-    <div class="modal-content">
-      <div class="center">
-          <img src="{{ palestrante.photo | prepend: site.baseurl }}" class="palestrantes">
-      </div>
-      <h2>{{ palestrante.name }}</h2>
-      <p> {{ palestrante.content }}</p>
-      <div class="card-action">
-          {% if palestrante.facebook %}
-          <a href="https://facebook.com/{{ palestrante.facebook }}"><i class="icon fa fa-facebook"></i></a>
-          {% endif %}
-          {% if palestrante.twitter %}
-          <a href="https://twitter.com/{{ palestrante.twitter }}"><i class="icon fa fa-twitter"></i></a>
-          {% endif %}
-          {% if palestrante.github %}
-          <a href="https://github.com/{{ palestrante.github }}"><i class="icon fa fa-github"></i></a>
-          {% endif %}
-          {% if palestrante.facebook %}
-          <a href="https://br.linkedin.com/in/{{ palestrante.linkedin }}"><i class="icon fa fa-linkedin"></i></a>
-          {% endif %}
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
