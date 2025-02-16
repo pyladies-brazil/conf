@@ -1,60 +1,72 @@
-<div class="">
-    <div class="row">
-      <div class="container">
-          <h1 class="center">Programação</h1>
-          <p class="center">Em breve!</p>
-      </div>
-      <div class="row">
-        <div class="container">
-           <div class="user-details">
-             <h2>COVID | Health and Safe policy</h2>
-             <p>
-             <ul>
-               <li>
-                 <h1>Política de COVID-19 e Diretrizes de Saúde e Segurança | PyLadies Conference Brasil 2025</h1>
-
-                 A saúde e a segurança de todas as participantes, palestrantes, voluntárias e equipe organizadora da PyLadies Conference Brasil 2025 são nossa maior prioridade. Por isso, elaboramos as seguintes diretrizes baseadas nas recomendações das autoridades de saúde pública e nos aprendizados de eventos anteriores:
-                 
-                 Recomendações Gerais
-                 Solicitamos que todas as participantes estejam atentas à sua própria saúde antes de comparecer ao evento. Caso esteja com sintomas gripais, febre ou qualquer indício de COVID-19, pedimos que evite participar presencialmente.
-                 
-                 O evento disponibilizará opções híbridas para quem não puder comparecer fisicamente, permitindo acesso às principais sessões e palestras online.
-                 
-                 Requisitos de Vacinação
-                 A apresentação do comprovante de vacinação contra a COVID-19 é obrigatória no credenciamento presencial. Solicitamos que todas as participantes estejam com o esquema vacinal completo, incluindo doses de reforço recomendadas.
-                 
-                 Uso de Máscaras
-                 O uso de máscaras é fortemente recomendado em áreas internas e em situações onde o distanciamento físico não seja possível.
-                 
-                 Máscaras descartáveis estarão disponíveis nos postos de informação durante o evento.
-                 
-                 Higiene e Limpeza
-                 Haverá estações de higienização com álcool em gel 70% em vários pontos do local do evento.
-                 
-                 As áreas comuns serão higienizadas regularmente, com atenção especial a superfícies de alto contato, como mesas, cadeiras e corrimãos.
-                 
-                 Capacidade e Distanciamento
-                 A capacidade de cada sala será limitada para garantir espaço adequado entre as participantes.
-                 
-                 O layout do evento será projetado para evitar aglomerações, incluindo espaços ao ar livre para interações sociais.
-                 
-                 Testagem e Protocolos em Caso de Sintomas
-                 Haverá um posto de triagem no local para atendimento de emergências relacionadas à saúde.
-                 
-                 Participantes com sintomas durante o evento deverão informar a equipe organizadora e serão orientadas a realizar testagem rápida.
-                 
-                 Em caso de resultado positivo para COVID-19, a pessoa será acompanhada pela equipe de suporte e orientada a seguir os protocolos de isolamento.
-                 
-                 Flexibilidade e Monitoramento
-                 Continuaremos monitorando as diretrizes de saúde pública e adaptaremos nossas políticas conforme necessário.
-                 
-                 Quaisquer atualizações serão comunicadas com antecedência às participantes por e-mail e nos canais oficiais da PyLadies Conference Brasil 2025.
-                 
-                 Agradecemos a compreensão e colaboração de todas para que possamos realizar um evento seguro e acolhedor para todas as pessoas envolvidas. Caso tenha dúvidas ou precise de mais informações, entre em contato pelo e-mail [brasil@pyladies.com].
-                 
-                 Juntas, faremos um evento inesquecível e seguro! 💖🐍</li>
-             </ul>
-             </p>
-           </div>
-    </div>
+<div class="container">
+	<div class="row">
+		<div class="card-panel hoverable">
+			<h1 class="center">Programação do Evento</h1>
+          <table class="highlight centered">
+              <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Título</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>9:00</td>
+                  <td>Credenciamento</td>
+                </tr>
+                <tr>
+                  <td>9:40</td>
+                  <td>Abertura</td>
+                </tr>
+                <tr>
+                  <td>10:00</td>
+                  {% assign speaker = site.palestrantes[0] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
+                </tr>
+                <tr>
+                  <td>10:30</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td>11:00</td> 
+                  {% assign speaker = site.palestrantes[1] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
+                </tr>
+                <tr>
+                  <td>11:30</td>
+                  {% assign speaker = site.palestrantes[2] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
+                </tr>
+                <tr>
+                  <td>12:00</td>
+                  <td>Almoço</td>
+                </tr>
+                <tr>
+                  <td>14:00</td>
+                  {% assign speaker = site.palestrantes[3] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
+                </tr>
+                <tr>
+                  <td>15:30</td>
+                  <td>Coffee Break</td>
+                </tr>
+                <tr>
+                  <td>16:00</td>
+                  {% assign speaker = site.palestrantes[4] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
+                </tr>
+                <tr>
+                  <td>16:30</td>
+                  {% assign speaker = site.palestrantes[5] %}
+                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
+                </tr>
+                <tr>
+                  <td>17:30</td>
+                  <td>Encerramento e foto oficial</td>
+                </tr>
+              </tbody>
+            </table>
+		</div>
+	</div>
 </div>
+
