@@ -6,7 +6,13 @@ url: "https://pyladies-brazil.github.io" # the base hostname & protocol for your
 
 # User settings
 username: PyLadiesBRConf
-user_description: A PyLadies BR Conf é uma conferência de PyLadies para PyLadies. O PyLadies é um grupo internacional, mantido pela Python Software Foundation. Nossa missão é ajudar mais mulheres a tornarem-se membros ativos da comunidade Python. Queremos reunir mulheres que possam inspirar quem está chegando na comunidade, também quem está na área tecnológica há algum tempo. Esta será a terceira edição do evento, que irá ocorrer em Teresina.
+user_description: A PyLadies BR Conf é uma conferência de PyLadies para PyLadies. O PyLadies é um grupo internacional, mantido pela Python Software Foundation. Nossa missão é ajudar mais mulheres a tornarem-se membros ativos da comunidade Python. Queremos reunir mulheres que possam inspirar quem está chegando na comunidade, também quem está na área tecnológica há algum tempo. Esta será a terceira edição do evento, que irá ocorrer em Teresina. Esperamos receber todas as pessoas que se identificam ou tem expressão de gênero feminina independentemente do seu nível de conhecimento em Python.
+
+local_description: O evento será realizado na UFPI Campus Universitário Ministro Petrônio Portella - Ininga, Teresina-PI. No departamento de Física, próximo ao Núcleo de Pesquisa em Ciências Básicas - Bloco A.
+
+apoie_description: Caso tenha interesse em patrocinar o evento, veja o nosso plano de patrocínio.
+
+sub_palestras_description: Você tem uma experiência inspiradora, um case de sucesso ou um conhecimento técnico que pode impactar a comunidade? Submeta sua palestra para a PyLadies BR Conference e ajude a fortalecer a presença de mulheres e pessoas de gêneros sub-representados na tecnologia!
 
 user_title: 3ª PyLadies Conference Brasil
 email: brazil@pyladies.com

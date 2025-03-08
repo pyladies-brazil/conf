@@ -1,7 +1,192 @@
-#callforpapers, #programacao {
-  padding-top: 64px;
+html, h1, h2 {
+	font-family: Montserrat;
+}
+
+img{
+	width: 100%;
+}
+
+body{
+	color: rgba(0,0,0,0.87);
+	font-size: 100%;
+	line-height: 1.5;
+	color: #555;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.container p, .container span, .nav-wrapper a{
+	font-size: 18px;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+	padding-right: 4%;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+	font-weight: 700;
+}
+
+nav ul a:hover {
+  background-color: rgba(30, 174, 229, 0.29);
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+  background-color: #1eaee5;
+}
+
+nav{
+	background-color: #263676;
+}
+
+.text_justify{
+	text-align: justify;	
+}
+
+.sessao{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.sessao .row{
+	display: flex;
+	align-items: center;
+}
+
+.titulo{
+	background-color: #EDEDED;
+	padding-top: 30px;
+}
+
+.titulo .col{
+	margin-top: 0px;
+}
+
+.titulo span{
+	color: #1376A3;
+}
+
+.btn{	
+	background-color: #263676;
+	border-radius: 10px;
+	text-transform: none;
+}
+
+.titulo .btn{
+	margin-top: 10px;
+}
+
+.titulo img{
+	width: 90%;
+}
+
+.sobre{
+	background-color: #57B03F;
+}
+
+.local{
+	background-color: #EDEDED;
 }
 
 #local{
-	margin: 0;
+	margin: 0px;
+}
+
+.apoie{
+	background-color: #F4E298;
+}
+
+.sub_palestras{
+	background-color: #F4E298;	
+}
+
+.organizacao{
+	background-color: #57B03F;
+}
+
+.organizacao span{
+	font-weight: bold;
+}
+
+.organizacao a{
+	color: black;
+}
+
+#organizacao .row {
+	display: flex;
+	align-items: first baseline;
+}
+
+.logo_footer {
+  display: flex;
+  align-items: center;
+}
+
+.logo_footer img{
+	width: auto;
+}
+
+.footer_div .mapa_site{
+	font-size: 14px;
+	
+}
+
+.footer_div .divider{
+	background-color: #FFD203;
+}
+
+.footer_div .btn-floating{
+	background-color: white;
+}
+
+.footer_div .btn-floating i{
+	color: #263676;
+}
+
+.nav-color {
+  background: #263676;
+}
+
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+
+h1, h2, h3, h4, stong {
+  color: #333;
+  font-weight: 600;
+}
+h1 {
+  margin: .67em 0;  
+}
+
+.fa {
+  font: 14px/1 FontAwesome;
+    font-size: 14px;
+    line-height: 1;
+  text-rendering: auto;
+}
+
+h1 {
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0;
+}
+
+h2 {
+  font-size: 3.56rem;
+  line-height: 110%;
+  margin: 2.3733333333rem 0 1.424rem 0;
+}
+
+h4 {
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.52rem 0 .912rem 0;
 }
