@@ -88,6 +88,14 @@ nav{
 	background-color: #57B03F;
 }
 
+.foto_sobre{
+	text-align: center;
+}
+
+.foto_sobre img{
+	width: 50%;
+}
+
 .local{
 	background-color: #EDEDED;
 }
@@ -110,6 +118,7 @@ nav{
 
 .organizacao span{
 	font-weight: bold;
+	font-size: 14px;
 }
 
 .organizacao a{
@@ -121,10 +130,10 @@ nav{
 	align-items: first baseline;
 }
 
-.logo_footer {
+/* .logo_footer {
   display: flex;
   align-items: center;
-}
+} */
 
 .logo_footer img{
 	width: auto;
