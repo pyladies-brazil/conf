@@ -204,3 +204,24 @@ h4 {
   line-height: 110%;
   margin: 1.52rem 0 .912rem 0;
 }
+
+
+@media (min-width: 768px){
+	.sobre2{
+		padding: 10em 0 0;
+	}
+}
+
+
+@media (min-width: 768px){
+	.local2{
+		padding: 10em 0 0;
+	}
+}
+
+
+@media (min-width: 768px){
+	.apoie2{
+		padding:  10em 0 0 6em;
+	}
+}
