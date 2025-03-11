@@ -14,6 +14,10 @@ body{
 	font-family: 'Montserrat',sans-serif;
 }
 
+p{
+	color: black;
+}
+
 .container p, .container span, .nav-wrapper a{
 	font-size: 18px;
 }
@@ -52,10 +56,10 @@ nav{
 	padding-bottom: 10px;
 }
 
-.sessao .row{
+/* .sessao .row{
 	display: flex;
 	align-items: center;
-}
+} */
 
 .titulo{
 	background-color: #EDEDED;
