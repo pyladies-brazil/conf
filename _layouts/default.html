@@ -4,36 +4,51 @@
   <body>
       {% include header.html %}
 
-      <!-- {% include nav.html %} -->
-
-      <section id="about">
-        {% include about.html %}
+      <section id="titulo" class="sessao titulo">
+        {% include titulo.html %}
       </section>
-    
-      <section id="ingressos">
-        {% include inscricoes.html %}
+	  
+	  <section id="apoie" class="sessao sub_palestras">
+        {% include submissao_palestras.html %}
       </section>
 
-      <section id="keynotes">
-        {% include keynotes.html %}
-
+      <section id="sobre" class="sessao sobre">
+        {% include sobre.html %}
       </section>
-
-      <section id="covidsafepolicy">
-        {% include covid_safe_policy.html %}
-      </section>
-
-    <!--   <section id="callforpapers">
-        {% include call_for_papers.html %}
-      </section>  -->
-
-      <section id="local">
+	  
+	  <section id="local" class="sessao local">
         {% include local.html %}
       </section>
-
-      <section id="patrocinadores">
-        {% include patrocinadores.html %}
+<!--	  
+	  <section id="keynotes">
+        {% include keynotes.html %}
       </section>
+ 	  
+	  <section id="palestrantes">
+        {% include keynotes.html %}
+      </section>
+	  
+	  <section id="programacao">
+        {% include programacao.html %}
+      </section>
+	  
+	  <section id="patrocinadores">
+        {% include patrocinadores.html %}
+      </section> -->
+    
+      <section id="apoie" class="sessao apoie">
+        {% include apoie.html %}
+      </section>
+	  
+	  <section id="organizacao" class="sessao organizacao">
+        {% include organizacao.html %}
+      </section>
+      
+
+     <!--  <section id="covidsafepolicy">
+        {% include covid_safe_policy.html %}
+      </section> -->
+
 
         {{ content }}
       {% include footer.html %}

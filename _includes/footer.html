@@ -1,44 +1,53 @@
-<!-- <footer class="footer">
-    <p>&copy; {{site.username}}</p>
-
-
-
-    <p>PyLadiesConfBR is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
-</footer> -->
-
-
 <footer class="page-footer nav-color">
-  <div class="container">
-    <div class="row">
+  <div class="container footer_div">
+    <div class="row logo_footer">
+      <div class="col m6 s12 ">
+        <img  src="{{ "/assets/img/logo_footer.png" | prepend: site.baseurl }}" />
+      </div>
+
       <div class="col m6 s12">
-        <h5 class="white-text">Patrocine!</h5>
-        <div class="grey-text text-lighten-4">
-        <a class="waves-effect waves-light btn-large" href="{{ "/assets/Plano_de_patrocinio.pdf" | prepend: site.baseurl }}">Veja nosso plano de patrocínio!</a>
-        </div>
+		<div class="row">
+			<div class="col s1">
+				<a class="btn-floating btn-small" target="_blank" href="https://www.facebook.com/PyLadiesBrazil/"><i class="fa fa-facebook"></i></a>
+			</div>
+			<div class="col s1">
+				<a class="btn-floating btn-small" target="_blank" href="https://www.instagram.com/pyladiesbrasil/"><i class="fa fa-instagram"></i></a>
+			</div>
+			<div class="col s1">
+				<a class="btn-floating btn-small" target="_blank" href="https://github.com/pyladies-brazil"><i class="fa fa-github"></i></a>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col s12">
+				<h5>Mapa do site</h5>
+				<div class="divider"></div>
+			</div>
+		</div>
+		
+		<div class="row mapa_site">
+			<div class="col s4">
+				<a class="grey-text text-lighten-3" href="index.html#programacao">Programação</a>
+			</div>
+			<div class="col s4">
+				<a class="grey-text text-lighten-3" href="covid_safe_policy.html#covid_safe_policy">COVID | Health and Safe Policy</a>
+			</div>
+			<div class="col s4">
+				<a class="grey-text text-lighten-3" href="index.html#keynotes">Keynotes e palestrantes</a>
+			</div>
+		</div>
+		<div class="row mapa_site">
+			<div class="col s4">
+				<a class="grey-text text-lighten-3" href="index.html#inscricoes">Inscrições</a>
+			</div>
+			<div class="col s4">
+				<a class="grey-text text-lighten-3" target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vTkVt2ermHYzhgzcqs2VqQGk9PS01UkIXcI0Gjmb_OkBTbdocYGPY2DCrMgmi8N1Dps1WS_KdrF45F2/pub">Código de Conduta</a>
+			</div>
+			<div class="col s4">
+				<a class="grey-text text-lighten-3" href="index.html#local">Local do evento</a>
+			</div>
+		</div>
       </div>
-
-      <div class="col m4 s12">
-        <h5 class="white-text">Sobre</h5>
-        <ul>
-          <li><a class="grey-text text-lighten-3" href="index.html#about">Evento</a></li>
-          <li><a class="grey-text text-lighten-3" href="index.html#keynotes">Keynotes</a></li>
-		  <li><a class="grey-text text-lighten-3" href="programacao.html#programacao">Programação</a></li>
-          <li><a class="grey-text text-lighten-3" href="call_for_papers.html#callforpapers">Call for Papers</a></li>
-          <li><a class="grey-text text-lighten-3" href="index.html#local">Local</a></li>
-          <li><a class="grey-text text-lighten-3" href="index.html#patrocinadores">Patrocinadores</a></li>
-          <li><a class="grey-text text-lighten-3" href="https://docs.google.com/presentation/d/e/2PACX-1vTQgdjEKIV1oJqZyB2i1a9OUFu0NcJ1HtN95DJT6WbtK5ovNLW-M4dC_KPb9uFWXqL10m7cfKQ8nbhW/pub">Carta de Patrocínio</a></li>
-          <li><a class="grey-text text-lighten-3" href="https://docs.google.com/document/d/e/2PACX-1vTkVt2ermHYzhgzcqs2VqQGk9PS01UkIXcI0Gjmb_OkBTbdocYGPY2DCrMgmi8N1Dps1WS_KdrF45F2/pub">Código de Conduta</a></li>
-        </ul>
-      </div>
-
-      <div class="col m2 s12">
-          <ul>
-              <li><a class="grey-text text-lighten-3 right" href="http://brasil.pyladies.com/"><i class="medium fa fa-rss social-media"></i></a></li>
-
-            <li><a class="grey-text text-lighten-4 right" href="https://www.facebook.com/PyLadiesBrazil/"><i class="medium fa fa-facebook social-media"></i></a></li>
-          </ul>
-        </div>
-
     </div>
   </div>
   <div class="footer-copyright">
@@ -51,35 +60,26 @@
   </div>
 </footer>
 
-
-<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/jquery-3.3.1.min.js" | prepend: site.baseurl }}"></script>
 
 <script src="{{ "/assets/js/materialize.min.js" | prepend: site.baseurl }}"></script>
 
 <script src="{{ "/assets/js/moment.min.js" | prepend: site.baseurl  }} "></script>
 <script src="{{ "/assets/js/moment-timezone-with-data.min.js" | prepend: site.baseurl  }} "></script>
-<script src="{{ "/assets/js/jquery.countdown.js" | prepend: site.baseurl  }} "></script>
-
-<script src="{{ "/assets/js/contador.js" | prepend: site.baseurl  }} "></script>
-
-<!-- <script src="{{ "/assets/js/contador.js" | prepend: site.baseurl  }} "></script> -->
 
 <script type="text/javascript">
 
- $( window ).scroll(function() {
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
 
-  if($(window).height() * 0.60 > $(this).scrollTop()){
-    $(".nav-color").hide();
-  }
-  else $(".nav-color").show();
+  // Or with jQuery
 
-})
-$(document).ready(function(){
-   $('.modal').modal();
- });
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+  
 </script>
 
 {% include google-analytics.html %}
