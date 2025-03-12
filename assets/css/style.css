@@ -1,5 +1,34 @@
-html, h1, h2 {
-	font-family: Montserrat;
+@font-face {
+    font-family: 'Ezra-Regular';
+    src: url('../fonts/Ezra-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ezra-Bold';
+    src: url('../fonts/Ezra-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ezra-Semibold';
+    src: url('../fonts/Ezra-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mega-drone';
+    src: url('../fonts/Mega\ Drone.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, h1, h2, body {
+    font-family: 'Ezra-Regular';
 }
 
 img{
@@ -11,7 +40,6 @@ body{
 	font-size: 100%;
 	line-height: 1.5;
 	color: #555;
-	font-family: 'Montserrat',sans-serif;
 }
 
 p{
@@ -92,6 +120,10 @@ nav{
 	background-color: #57B03F;
 }
 
+.sobre2 h4{
+	font-family: 'Ezra-Bold';
+}
+
 .foto_sobre{
 	text-align: center;
 }
@@ -104,12 +136,28 @@ nav{
 	background-color: #EDEDED;
 }
 
+.local2 h4{
+	font-family: 'Ezra-Bold';
+}
+
 #local{
 	margin: 0px;
 }
 
+.sub_palestras h4{
+	font-family: 'Ezra-Bold';
+}
+
 .apoie{
 	background-color: #F4E298;
+}
+
+.quem-organiza{
+	font-family: 'Ezra-Bold';
+}
+
+.apoie2 h4{
+	font-family: 'Ezra-Bold';
 }
 
 .sub_palestras{
