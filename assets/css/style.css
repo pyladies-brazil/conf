@@ -149,7 +149,7 @@ nav{
 }
 
 .apoie{
-	background-color: #F4E298;
+	background-color: #57B03F;
 }
 
 .quem-organiza{
@@ -165,7 +165,7 @@ nav{
 }
 
 .organizacao{
-	background-color: #57B03F;
+	background-color: #F4E298;
 }
 
 .organizacao span{
@@ -220,7 +220,7 @@ a {
 }
 
 
-h1, h2, h3, h4, stong {
+h1, h2, h3, h4,h5, stong {
   color: #333;
   font-weight: 600;
 }
@@ -272,4 +272,51 @@ h4 {
 	.apoie2{
 		padding:  10em 0 0 6em;
 	}
+}
+
+.titulo_keynotes{
+	font-family: 'Ezra-Bold';
+}
+
+.keynotes2{
+	background-color: #F4E298;
+}
+
+.keynotes_desc{
+	background-color: #57B03F;	
+	padding: 20px;
+	border-radius: 10px;
+	width: 90%;
+	margin: auto;
+}
+
+.keynotes2 img{
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+.keynotes2 h5{
+	text-align: center;
+}
+
+.keynotes2 p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.social_media1{
+	text-align: right;
+}
+
+.social_media2{
+	text-align: left;
+}
+
+.keynotes2 .btn-floating{
+	background-color: black;
+}
+
+.keynotes2 .btn-floating i{
+	color: white;
 }
