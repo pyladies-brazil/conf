@@ -149,7 +149,7 @@ nav{
 }
 
 .apoie{
-	background-color: #57B03F;
+	background-color: #F4E298;
 }
 
 .quem-organiza{
@@ -165,7 +165,7 @@ nav{
 }
 
 .organizacao{
-	background-color: #F4E298;
+	background-color: #57B03F;
 }
 
 .organizacao span{
@@ -319,4 +319,24 @@ h4 {
 
 .keynotes2 .btn-floating i{
 	color: white;
+}
+
+.titulo_patrocinadores{
+	font-family: 'Ezra-Bold';
+}
+
+.patrocinadores2 a{
+	color: black;
+}
+
+.patrocinadores2 span {
+  font-size: 14px;
+}
+
+.patrocinadores2{
+	background-color: #EDEDED;
+}
+
+.page-footer h5{
+  color: #fff;
 }
