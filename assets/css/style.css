@@ -71,6 +71,10 @@ nav ul a:hover {
   background-color: #1eaee5;
 }
 
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+  background-color: #1eaee5;
+}
+
 nav{
 	background-color: #263676;
 }
@@ -84,13 +88,7 @@ nav{
 	padding-bottom: 10px;
 }
 
-/* .sessao .row{
-	display: flex;
-	align-items: center;
-} */
-
 .titulo{
-	background-color: #EDEDED;
 	padding-top: 30px;
 }
 
@@ -116,9 +114,6 @@ nav{
 	width: 90%;
 }
 
-.sobre{
-	background-color: #57B03F;
-}
 
 .sobre2 h4{
 	font-family: 'Ezra-Bold';
@@ -130,10 +125,6 @@ nav{
 
 .foto_sobre img{
 	width: 50%;
-}
-
-.local{
-	background-color: #EDEDED;
 }
 
 .local2 h4{
@@ -148,9 +139,6 @@ nav{
 	font-family: 'Ezra-Bold';
 }
 
-.apoie{
-	background-color: #F4E298;
-}
 
 .quem-organiza{
 	font-family: 'Ezra-Bold';
@@ -164,11 +152,7 @@ nav{
 	background-color: #F4E298;	
 }
 
-.organizacao{
-	background-color: #57B03F;
-}
-
-.organizacao span{
+.organizacao span, .hospedagem span{
 	font-weight: bold;
 	font-size: 14px;
 }
@@ -177,24 +161,12 @@ nav{
 	color: black;
 }
 
-/*
-#organizacao .row {
-	display: flex;
-	align-items: first baseline;
-}
-
-.logo_footer {
-  display: flex;
-  align-items: center;
-} */
-
 .logo_footer img{
 	width: auto;
 }
 
 .footer_div .mapa_site{
 	font-size: 14px;
-	
 }
 
 .footer_div .divider{
@@ -212,7 +184,6 @@ nav{
 .nav-color {
   background: #263676;
 }
-
 
 a {
   background-color: transparent;
@@ -278,13 +249,9 @@ h4 {
 	font-family: 'Ezra-Bold';
 }
 
-.keynotes2{
-	background-color: #F4E298;
-}
-
 .keynotes_desc{
-	background-color: #57B03F;	
-	padding: 20px;
+	background-color: #F4E298;	
+	padding: 0px 20px 0px 20px;
 	border-radius: 10px;
 	width: 90%;
 	margin: auto;
@@ -315,6 +282,7 @@ h4 {
 
 .keynotes2 .btn-floating{
 	background-color: black;
+	margin-bottom: 10px;
 }
 
 .keynotes2 .btn-floating i{
@@ -329,18 +297,51 @@ h4 {
 	color: black;
 }
 
-.patrocinadores2 span {
+.patrocinadores2 p, .hospedagem .col a p, .organizacao .col a p {
   font-size: 14px;
-}
-
-.patrocinadores2{
-	background-color: #EDEDED;
 }
 
 .page-footer h5{
   color: #fff;
 }
 
-.inscricoes{
+
+.profile-picture {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1/1;
+  border-radius:50%;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid #263676;
+}
+
+.palestras_desc{
 	background-color: #F4E298;	
+	padding: 20px;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.fundo-branco{
+	background-color: #EDEDED;
+}
+
+.fundo-amarelo{
+	background-color: #F4E298;	
+}
+
+.fundo-verde{
+	background-color: #57B03F;
+}
+
+.patrocinadores2 img {
+  object-fit: contain;
+  border: 3px solid #263676;
+}
+
+.profile-picture-org {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1/1;
 }
