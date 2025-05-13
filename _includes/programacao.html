@@ -1,72 +1,213 @@
 <div class="container">
 	<div class="row">
-		<div class="card-panel hoverable">
-			<h1 class="center">Programação do Evento</h1>
-          <table class="highlight centered">
-              <thead>
-                <tr>
-                    <th>Horário</th>
-                    <th>Título</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>9:00</td>
-                  <td>Credenciamento</td>
-                </tr>
-                <tr>
-                  <td>9:40</td>
-                  <td>Abertura</td>
-                </tr>
-                <tr>
-                  <td>10:00</td>
-                  {% assign speaker = site.palestrantes[0] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>10:30</td>
-                  <td>Coffee Break</td>
-                </tr>
-                <tr>
-                  <td>11:00</td> 
-                  {% assign speaker = site.palestrantes[1] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>11:30</td>
-                  {% assign speaker = site.palestrantes[2] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>12:00</td>
-                  <td>Almoço</td>
-                </tr>
-                <tr>
-                  <td>14:00</td>
-                  {% assign speaker = site.palestrantes[3] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>15:30</td>
-                  <td>Coffee Break</td>
-                </tr>
-                <tr>
-                  <td>16:00</td>
-                  {% assign speaker = site.palestrantes[4] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>16:30</td>
-                  {% assign speaker = site.palestrantes[5] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>17:30</td>
-                  <td>Encerramento e foto oficial</td>
-                </tr>
-              </tbody>
-            </table>
-		</div>
+		
+		
+    <!-- Inicio -->
+    <div class="uk-container uk-container-small uk-margin-top uk-margin-bottom">
+        <div class="uk-grid-small uk-child-width-expand@s uk-text-center uk-grid" uk-grid="">
+            <div class="uk-first-column">
+                <div id="card1" class="uk-card uk-padding-small card uk-card-blue" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;">
+                    <h3>Manhã</h3>
+					<p>19 de Junho</p>
+                </div>
+            </div>
+            <div>
+                <div id="card2" class="uk-card uk-padding-small card uk-card-gray" style="box-shadow: none;">
+                    <h3>Tarde</h3>
+					<p>19 de Junho</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-container uk-container-small uk-margin-bottom">
+        <!-- MANHÃ -->
+        <div id="day1" style="display: flex; flex-wrap: wrap;">
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-green">
+                    <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Universidade Federal do Rio Grande do Norte (UFRN) - Prédio do Instituto Metrópole Digital (IMD)
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">09:00 - 09:30</span>
+                    <h3 class="custom-class"> Inicio do credenciamento </h3>
+                </div>
+            </div>
+
+            <div class="uk-grid-small uk-child-width-expand@s uk-grid-match uk-grid" uk-grid="">
+                <div class="uk-width-1-2@m uk-width-1-2@s uk-first-column">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala A305
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/pedro-florencio.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">09:30 - 11:30</span>
+                                <p class="uk-text-bold">Visualização e Processamento de Dados Geoespaciais: Uma Introdução Prática.</p>
+                                <p><strong>Instrutor(a) </strong>Pedro Florencio de Almeida Neto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala A309
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/marcos-jacinto.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">09:30 - 11:30</span>
+                                <p class="uk-text-bold">Treinar um Modelo não é Tudo: O Ciclo de Vida de Modelos de Machine Learning.</p>
+                                <p><strong>Instrutor(a) </strong> Marcos Vinícius Gomes Jacinto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TARDE-->
+        <div id="day2" style="display: none; flex-wrap: wrap;">
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-green">
+                    <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Escola de Governo Cardeal Dom Eugênio de Araújo Sales
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">08:30 - 09:30</span>
+                    <h3 class="custom-class"> Inicio do credenciamento/Café da manhã </h3>
+                </div>
+            </div>
+
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue">
+                    <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Sala 1
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">09:15 - 10:20</span>
+                    <h3 class="custom-class"> Mesa de abertura </h3>
+                </div>
+            </div>
+
+            <div class="uk-grid-small uk-child-width-expand@s uk-grid-match uk-grid uk-grid-stack" uk-grid="">
+
+                <div class="uk-width-1-1@m uk-grid-margin uk-first-column">
+                    <div>
+                        <div class="uk-card-blue">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Hall de entrada
+                            </span>
+                        </div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <span class="custom-class uk-badge uk-badge-large uk-badge-beige">15:40 - 16:15</span>
+                            <h3 class="custom-class"> Coffee-break </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m uk-width-1-1@s uk-grid-margin uk-first-column">
+                    <div>
+                        <div class="uk-card-green">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-card-default uk-card" style="padding: 1.5rem 0.7rem;">
+                            <div class="uk-grid-small uk-child-width-expand@m uk-grid uk-grid-stack" uk-grid="">
+                                <div class="uk-text-center uk-text-small uk-first-column">
+                                    <div class="uk-width-auto uk-margin-bottom">
+                                        <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/ana-cecilia.png" alt="Avatar">
+                                    </div>
+                                </div>
+                                <div class="uk-text-center uk-text-small">
+                                    <span class="uk-badge uk-badge-large uk-badge-beige">16:15 - 17:15</span>
+                                    <p class="uk-text-bold"></p>
+                                    <strong style="font-size: 1rem;">Keynote</strong>
+                                    <p style="font-size: 1.2rem;" class="uk-text-bold">Ana Cecília Vieira</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m uk-grid-margin uk-first-column">
+                    <div>
+                        <div class="uk-card-blue">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <span class="custom-class uk-badge uk-badge-large uk-badge-beige">17:15 - 17:30</span>
+                            <h3 class="custom-class"> Encerramento primeiro dia </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Fim -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    const cards = document.querySelectorAll('.card');
+
+    const days = document.querySelectorAll('[id^="day"]');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            cards.forEach(c => {
+                c.classList.remove('uk-card-blue');
+                c.classList.add('uk-card-gray');
+                c.style.boxShadow = 'none';
+            });
+
+            card.classList.add('uk-card-blue');
+            card.classList.remove('uk-card-gray');
+            card.style.boxShadow = '0 0 10px 0 rgba(0, 0, 0, 0.1)';
+
+            days.forEach(day => day.style.display = 'none');
+
+            var dayId = 'day' + card.id.replace('card', '');
+            document.getElementById(dayId).style.display = 'flex';
+            document.getElementById(dayId).style.flexWrap = 'wrap';
+        });
+    });
+});
+</script>
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	</div>
 </div>
 
