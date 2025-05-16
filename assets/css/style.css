@@ -345,3 +345,64 @@ h4 {
   max-width: 200px;
   aspect-ratio: 1/1;
 }
+
+.uk-card-green {
+  background-color: #57B03F;
+  color: #FFF;
+}
+
+.uk-card-blue, .uk-card-blue h3, .uk-card-blue p {
+  cursor: pointer;
+  background-color: #1eaee5;
+  color: #FFF;
+}
+
+.uk-card-gray, .uk-card-gray h3, .uk-card-gray p {
+  cursor: pointer;
+  background-color: #777777;
+  color: #FFF;
+}
+
+.uk-card-brown {
+  background-color: #353408;
+  color: #FFF;
+  height: auto !important;
+}
+
+.uk-local, .uk-local span{
+	font-size: medium;
+}
+
+.uk-local i{
+	font-size: 20px;
+}
+
+.custom-class {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+.uk-badge-beige {
+  background-color: #f5f3e7;
+  color: black !important;
+}
+.uk-badge-large {
+  padding: 1rem;
+  padding-bottom: 1rem;
+  font-size: medium;
+}
+
+.uk-h3, h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.uk-width-auto img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.avatar-medium {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}

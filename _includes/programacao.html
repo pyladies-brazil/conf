@@ -1,72 +1,360 @@
 <div class="container">
 	<div class="row">
-		<div class="card-panel hoverable">
-			<h1 class="center">Programação do Evento</h1>
-          <table class="highlight centered">
-              <thead>
-                <tr>
-                    <th>Horário</th>
-                    <th>Título</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>9:00</td>
-                  <td>Credenciamento</td>
-                </tr>
-                <tr>
-                  <td>9:40</td>
-                  <td>Abertura</td>
-                </tr>
-                <tr>
-                  <td>10:00</td>
-                  {% assign speaker = site.palestrantes[0] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>10:30</td>
-                  <td>Coffee Break</td>
-                </tr>
-                <tr>
-                  <td>11:00</td> 
-                  {% assign speaker = site.palestrantes[1] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>11:30</td>
-                  {% assign speaker = site.palestrantes[2] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>12:00</td>
-                  <td>Almoço</td>
-                </tr>
-                <tr>
-                  <td>14:00</td>
-                  {% assign speaker = site.palestrantes[3] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>15:30</td>
-                  <td>Coffee Break</td>
-                </tr>
-                <tr>
-                  <td>16:00</td>
-                  {% assign speaker = site.palestrantes[4] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>16:30</td>
-                  {% assign speaker = site.palestrantes[5] %}
-                  <td><a class="waves-effect modal-trigger" href="#{{ speaker.id }}"> {{ speaker.title }}</a> - {{ speaker.name }}</td>
-                </tr>
-                <tr>
-                  <td>17:30</td>
-                  <td>Encerramento e foto oficial</td>
-                </tr>
-              </tbody>
-            </table>
+		
+		
+    <!-- Inicio -->
+    <div class="uk-container uk-container-small uk-margin-top uk-margin-bottom">
+        <div class="uk-grid-small uk-child-width-expand@s uk-text-center uk-grid" uk-grid="">
+            <div class="uk-first-column">
+                <div id="card1" class="uk-card uk-padding-small card uk-card-blue" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;">
+                    <h3>Manhã</h3>
+					<p>19 de Junho</p>
+                </div>
+            </div>
+            <div>
+                <div id="card2" class="uk-card uk-padding-small card uk-card-gray" style="box-shadow: none;">
+                    <h3>Tarde</h3>
+					<p>19 de Junho</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-container uk-container-small uk-margin-bottom">
+        <!-- MANHÃ -->
+        <div id="day1" style="display: flex; flex-wrap: wrap;">
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-green uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Universidade Federal do Piauí (UFPI) - Campus Universitário Ministro Petrônio Portella - Ininga, Teresina-PI.
+						Departamento de Física, próximo ao Núcleo de Pesquisa em Ciências Básicas - Bloco A
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">07:30 - 08:00</span>
+                    <h3 class="custom-class"> Inicio do credenciamento </h3>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">08:00 - 08:20</span>
+                    <h3 class="custom-class"> Abertura Oficial do evento </h3>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m">
+                <div class="uk-card-blue uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">08:20 - 09:00</span>
+                    <h3 class="custom-class"> Mesa de abertura </h3>
+					<p class="uk-text-bold">Decodificando o Futuro: construindo trajetórias e oportunidades de carreira</p>
+                    <p><strong>Mediadora </strong>Andressa Monteiro</p>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m">
+                 <div class="uk-card-default uk-card">
+					<div class="uk-card-brown uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+                    </span>
+					</div>
+					<div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+						<!-- <div class="uk-text-center uk-text-small">
+							<div class="uk-width-auto">
+								<img class="uk-border-circle avatar-medium" src="/assets/images/avatar/pedro-florencio.png" alt="Avatar">
+							</div>
+						</div> -->
+						<div class="uk-text-center uk-text-small uk-grid-margin">
+							<span class="uk-badge uk-badge-large uk-badge-beige">09:00 - 09:40</span>
+							<p class="uk-text-bold">Palestra : Dados que contam Histórias - entendendo o perfil da comunidade com as pyladies de Fortaleza</p>
+							<p><strong>Palestrante </strong>Ariana Cursino</p>
+						</div>
+					</div>
+				</div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">09:45 - 10:20</span>
+                    <h3 class="custom-class"> Coffe-break </h3>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">10:25 - 10:35</span>
+                    <h3 class="custom-class"> Sorteio </h3>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m">
+                 <div class="uk-card-default uk-card">
+					<div class="uk-card-brown uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+                    </span>
+                </div>					                
+					<div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+						<!-- <div class="uk-text-center uk-text-small">
+							<div class="uk-width-auto">
+								<img class="uk-border-circle avatar-medium" src="/assets/images/avatar/pedro-florencio.png" alt="Avatar">
+							</div>
+						</div> -->
+						<div class="uk-text-center uk-text-small uk-grid-margin">
+							<span class="uk-badge uk-badge-large uk-badge-beige">10:38 - 11:08</span>
+							<p class="uk-text-bold">Palestra : Darwin vai às compras no século XXI: como os mecanismos cerebrais que guiaram nossos 
+							ancestrais pré-históricos ainda influenciam nossas decisões de compra na era digital, dominada por algoritmos inteligentes.</p>
+							<p><strong>Palestrante </strong>Nina Soraya</p>
+						</div>
+					</div>
+				</div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+				<div>
+					<div class="uk-card-green uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+							<i class="fa fa-map-marker"></i> Auditório
+						</span>
+					</div>
+					
+					<div class="uk-card-default uk-card" style="padding: 1.5rem 0.7rem;">
+						<div class="uk-grid-small uk-child-width-expand@m uk-grid uk-grid-stack" uk-grid="">
+							<div class="uk-text-center uk-text-small uk-first-column">
+								<div class="uk-width-auto uk-margin-bottom">
+									<img class="uk-border-circle avatar-medium" src="{{ "/assets/img/keynotes/amanda_barbosa.jpg" | prepend: site.baseurl }}" alt="Avatar">
+								</div>
+							</div>
+							<div class="uk-text-center uk-text-small">
+								<span class="uk-badge uk-badge-large uk-badge-beige">11:10 - 12:10</span>
+								<p class="uk-text-bold"></p>
+								<strong style="font-size: 1rem;">Keynote</strong>
+								<p style="font-size: 1.2rem;" class="uk-text-bold">Amanda Barbosa</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">12:10</span>
+                    <h3 class="custom-class"> Pausa pro Almoço </h3>
+                </div>
+            </div>			
+        </div>
+
+        <!-- TARDE-->
+        <div id="day2" style="display: none; flex-wrap: wrap;">
+            <div class="uk-width-1-1@m">
+                <div class="uk-card-green uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Universidade Federal do Piauí (UFPI) - Campus Universitário Ministro Petrônio Portella - Ininga, Teresina-PI.
+						Departamento de Física, próximo ao Núcleo de Pesquisa em Ciências Básicas - Bloco A
+                    </span>
+                </div>
+                <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+					<!-- <div class="uk-text-center uk-text-small">
+						<div class="uk-width-auto">
+							<img class="uk-border-circle avatar-medium" src="/assets/images/avatar/pedro-florencio.png" alt="Avatar">
+						</div>
+					</div> -->
+					<div class="uk-text-center uk-text-small uk-grid-margin">
+						<span class="uk-badge uk-badge-large uk-badge-beige">13:30 - 14:10</span>
+						<p class="uk-text-bold">Palestra : Código Interrompido: O recuo da diversidade tech</p>
+						<p><strong>Palestrante </strong>Greice da Hora</p>
+					</div>
+				</div>
+            </div>
+			
+			<div class="uk-width-1-1@m">
+                 <div class="uk-card-default uk-card">
+					<div class="uk-card-brown uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+							<i class="fa fa-map-marker"></i> Auditório
+						</span>
+					</div>
+					
+					<div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+						<!-- <div class="uk-text-center uk-text-small">
+							<div class="uk-width-auto">
+								<img class="uk-border-circle avatar-medium" src="/assets/images/avatar/pedro-florencio.png" alt="Avatar">
+							</div>
+						</div> -->
+						<div class="uk-text-center uk-text-small uk-grid-margin">
+							<span class="uk-badge uk-badge-large uk-badge-beige">14:15 - 14:55</span>
+							<p class="uk-text-bold">Palestra : Relato em dados: Violência Doméstica</p>
+							<p><strong>Palestrante </strong>Deborah Foroni</p>
+						</div>
+					</div>
+				</div>
+            </div>
+			
+			<div class="uk-width-1-1@m">
+                 <div class="uk-card-default uk-card">
+					<div class="uk-card-brown uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+							<i class="fa fa-map-marker"></i> Auditório
+						</span>
+					</div>
+					<div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+						<!-- <div class="uk-text-center uk-text-small">
+							<div class="uk-width-auto">
+								<img class="uk-border-circle avatar-medium" src="/assets/images/avatar/pedro-florencio.png" alt="Avatar">
+							</div>
+						</div> -->
+						<div class="uk-text-center uk-text-small uk-grid-margin">
+							<span class="uk-badge uk-badge-large uk-badge-beige">15:00 - 15:40</span>
+							<p class="uk-text-bold">Palestra : Expressões Regulares com Python</p>
+							<p><strong>Palestrante </strong>Alynne Ferreira</p>
+						</div>
+					</div>
+				</div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+							<i class="fa fa-map-marker"></i> Auditório
+						</span>
+				</div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">15:45 - 16:10</span>
+                    <h3 class="custom-class"> Coffe-break </h3>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+							<i class="fa fa-map-marker"></i> Auditório
+						</span>
+				</div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">16:15 - 16:25</span>
+                    <h3 class="custom-class"> Sorteio </h3>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+							<i class="fa fa-map-marker"></i> Auditório
+						</span>
+				</div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">16:28 - 16:48</span>
+                    <h3 class="custom-class"> Palestras Relâmpago </h3>
+                </div>
+            </div>
+			
+			<div class="uk-width-1-1@m uk-margin-bottom">
+				<div>
+					<div class="uk-card-green uk-local">
+						<span class="uk-margin-small-left uk-local"> 
+							<i class="fa fa-map-marker"></i> Auditório
+						</span>
+					</div>
+					<div class="uk-card-default uk-card" style="padding: 1.5rem 0.7rem;">
+						<div class="uk-grid-small uk-child-width-expand@m uk-grid uk-grid-stack" uk-grid="">
+							<div class="uk-text-center uk-text-small uk-first-column">
+								<div class="uk-width-auto uk-margin-bottom">
+									<img class="uk-border-circle avatar-medium" src="{{ "/assets/img/keynotes/gabi_cavalcante.jpg" | prepend: site.baseurl }}" alt="Avatar">
+								</div>
+							</div>
+							<div class="uk-text-center uk-text-small">
+								<span class="uk-badge uk-badge-large uk-badge-beige">16:50 - 17:50</span>
+								<p class="uk-text-bold"></p>
+								<strong style="font-size: 1rem;">Keynote</strong>
+								<p style="font-size: 1.2rem;" class="uk-text-bold">Gabi Cavalcante</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+
+			<div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue uk-local">
+					<span class="uk-margin-small-left uk-local"> 
+						<i class="fa fa-map-marker"></i> Auditório
+					</span>
+				</div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">18:00</span>
+                    <h3 class="custom-class"> Encerramento </h3>
+                </div>
+            </div>
 		</div>
+    
+    <!-- Fim -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    const cards = document.querySelectorAll('.card');
+
+    const days = document.querySelectorAll('[id^="day"]');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            cards.forEach(c => {
+                c.classList.remove('uk-card-blue');
+                c.classList.add('uk-card-gray');
+                c.style.boxShadow = 'none';
+            });
+
+            card.classList.add('uk-card-blue');
+            card.classList.remove('uk-card-gray');
+            card.style.boxShadow = '0 0 10px 0 rgba(0, 0, 0, 0.1)';
+
+            days.forEach(day => day.style.display = 'none');
+
+            var dayId = 'day' + card.id.replace('card', '');
+            document.getElementById(dayId).style.display = 'flex';
+            document.getElementById(dayId).style.flexWrap = 'wrap';
+        });
+    });
+});
+</script>
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	</div>
 </div>
 
